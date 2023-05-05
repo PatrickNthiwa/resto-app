@@ -29,5 +29,5 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::midd
+Route::middleware('auth')
 require __DIR__.'/auth.php';
