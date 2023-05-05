@@ -31,7 +31,7 @@ Route::middleware('auth')->group(function () {
 
 
 Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(function(){
-    Route::get('/',[App\Http\AdminController::class,'index'])->name('index');
+    Route::get('/',[App\Http\Controllers\Admin\AdminController::class,'index'])->name('index');
 });
 
 
