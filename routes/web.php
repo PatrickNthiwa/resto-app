@@ -30,8 +30,9 @@ Route::middleware('auth')->group(function () {
 
 
 Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(function(){
-    Route::get('/',[AdminC])
+    Route::get('/',[AdminCon])
 });
+
 
 
 require __DIR__.'/auth.php';
