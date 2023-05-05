@@ -7,5 +7,5 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public funct
+    public function index()
 }
