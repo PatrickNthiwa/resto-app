@@ -29,5 +29,5 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group
+Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(func)
 require __DIR__.'/auth.php';
